@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+
+
+
+.logo{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.logo img{
+    width: 78%;
+    border: 3px solid white;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+.navbar{
+   display: flex ;
+   align-items: center;
+   justify-content: center;
+   position: sticky;
+   top: 0;
+   cursor: pointer;
+}  
+
+
+
+.nav-list{
+width: 50%;
+display: flex;
+align-items: center;
+}
+
+
+
+.nav-list li{
+list-style: none;
+padding: 26px 30px;
+}
+
+
+.nav-list li a{
+text-decoration: none;
+color: #fff;
+}
+
+
+
+
+.nav-list li a:hover{
+text-decoration: none;
+color: gray;
+}
+
+
+
+
+.rightNav{
+    width: 50%;
+    text-align: right;
+    padding: 25px;
+}
+
+
+
+
+#search{
+    padding: 5px;
+    font-size:17px ;
+    border:2px solid gray ;
+    border-radius: 9px;
+}
+
+
+
+.background{
+    background: rgba(0, 0, 0, 0.7)url('../img/bg.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+
+
+
+
+.firstsection{
+    height: 100vh;
+}
+
+
+
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 50%;
+    margin: auto;
+    height: 75%;
+}
+
+
+
+    
+
+.firstHalf{
+width: 80%;
+display:flex ;
+flex-direction: column;
+justify-content: center;
+}
+
+
+
+
+.secondtHalf{
+width: 30%;
+}
+
+
+
+.secondtHalf img{
+    width: 70%;
+    border: 2px solid #fff;
+    border-radius: 150px;
+    display: block;
+    margin: auto;
+
+    }
+
+
+    .text-big{
+     font-size: 27px;
+    }
+
+
+
+
+    .text-small{
+        font-size: 14px;
+    }
+
+
+    .btn{
+        padding: 8px 20px;
+        margin: 2px 3px;
+        border: -2px solid #fff;
+        border-radius: 8px;
+        font-size: 12px;
+        background: none;
+        color:#fff;
+        cursor: pointer;
+    }
+
+
+    .btn-sm{
+        padding: 6px 10px;
+        vertical-align: middle;
+        
+    }
+
+
+    .section{
+        height: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-width: 80%;
+        margin: auto;
+        font-family: 'Ubuntu', sans-serif;
+    }
+
+
+
+    .section-Left{
+       flex-direction: row-reverse;
+    }
+
+
+
+    .paras{
+        padding: 0px 65px;
+    }
+
+
+    .sectionSubTag{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    }
+
+
+    .thumbnail{
+        width: -100px;
+        
+    
+    }
+        
+
+
+    
+.text-small{
+    padding: 69px;
+}
+
+
+.text-small{
+    padding: initial;
+}
+
+
+.Laptop{
+    width: 200;
+}
